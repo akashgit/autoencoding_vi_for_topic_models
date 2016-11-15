@@ -113,7 +113,6 @@ class VAE(object):
     def _create_loss_optimizer(self):
 
         self.x_reconstr_mean+=1e-10
-        self.x_rec+=1e-10
 
         reconstr_loss = \
             -tf.reduce_sum(self.x * tf.log(self.x_reconstr_mean),1)#/tf.reduce_sum(self.x,1)
