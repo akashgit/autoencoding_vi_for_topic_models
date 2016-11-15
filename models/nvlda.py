@@ -97,7 +97,7 @@ class VAE(object):
 
     def _generator_network(self,z, weights):
         self.layer_do_0 = tf.nn.dropout(tf.nn.softmax(z), self.keep_prob)
-        x_reconstr_mean = tf.add(tf.matmul(self.layer_do_0, tf.nn.softmax(weights['h2'])),0.0)
+        x_reconstr_mean = tf.add(tf.matmul(self.layer_do_0, tf.nn.softmax(tf.contrib.layers.batch_norm((weights['h2']))),0.0)
         return x_reconstr_mean
 
     def _create_loss_optimizer(self):
