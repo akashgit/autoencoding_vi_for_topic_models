@@ -1,6 +1,6 @@
-# Neural Variational Inference for Topic Models
+# Autoencoding Variational Inference for Topic Models
 
-## Code for the ICLR 2017 paper: Neural Variational Inference for Topic Models
+## Code for the ICLR 2017 paper: Autoencoding Variational Inference for Topic Models
 
 #### > [PDF](http://openreview.net/pdf?id=BybtVK9lg)
 
@@ -8,7 +8,7 @@
 
 #### Quick Start:
 
-This is a tensorflow implementation for both the Neural Topic Models mentioned in the paper. 
+This is a tensorflow implementation for both of the Autoencoded Topic Models mentioned in the paper. 
 ---
 To run the `prodLDA` model in the `20Newgroup` dataset:
 
