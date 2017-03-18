@@ -2,7 +2,7 @@
 
 ## Code for the ICLR 2017 paper: Autoencoding Variational Inference for Topic Models
 
-#### > [PDF](http://openreview.net/pdf?id=BybtVK9lg)
+#### > [Arxiv](https://arxiv.org/abs/1703.01488)
 
 #### > [OpenReview](http://openreview.net/forum?id=BybtVK9lg)
 
