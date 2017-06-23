@@ -22,4 +22,6 @@ Check `run.py` for other options.
 
 __UPDATE__
 
+hyqneuron recently implemented a [PyTorch](https://github.com/hyqneuron/pytorch-avitm) version of AVITM.
+
 Added `topic_prop` method to both the models. Softmax the output of this method to get the topic proportions.
