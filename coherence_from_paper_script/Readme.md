@@ -5,6 +5,6 @@ provide two sets of results for `t=50` and `t=200` topics for `prodLDA` on the 2
 in the original paper for reference.
 
 > It is recommended that if you use AVTIM for 20news or RCV1 datasets then use to the settings defined in the paper for
-the generator/inference network. Our learning method is closely tied to the generator settings and operations such as 
+the inference network. Our learning method is closely tied to the architectural settings and operations such as 
 `BN` and `dropout` have very specific roles in the optimization. Therefore, for fair comparison it is strongly advised 
 that to keep these settings unchanged.
