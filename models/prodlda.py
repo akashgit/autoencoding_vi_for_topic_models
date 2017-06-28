@@ -130,7 +130,7 @@ class VAE(object):
 
     def partial_fit(self, X):
 
-        opt, cost,emb = self.sess.run((self.optimizer, self.cost,self.network_weights['weights_gener']['h2']),feed_dict={self.x: X,self.keep_prob: .8})
+        opt, cost,emb = self.sess.run((self.optimizer, self.cost,self.network_weights['weights_gener']['h2']),feed_dict={self.x: X,self.keep_prob: .4})
         return cost,emb
 
     def test(self, X):
