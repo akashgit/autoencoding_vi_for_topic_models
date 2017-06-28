@@ -12,7 +12,7 @@ This is a tensorflow implementation for both of the Autoencoded Topic Models men
 ---
 To run the `prodLDA` model in the `20Newgroup` dataset:
 
-> `CUDA_VISIBLE_DEVICES=0 python run.py -m prodlda -f 100 -s 100 -t 50 -b 200 -r 0.002 -e 80`
+> `CUDA_VISIBLE_DEVICES=0 python run.py -m prodlda -f 100 -s 100 -t 50 -b 200 -r 0.002 -e 200`
 
 Similarly for `NVLDA`:
 
