@@ -8,7 +8,7 @@
 
 #### Quick Start:
 
-This is a tensorflow implementation for both of the Autoencoded Topic Models mentioned in the paper. Some settings are different from the models used in the paper. 
+This is a tensorflow implementation for both of the Autoencoded Topic Models mentioned in the paper.  
 ---
 To run the `prodLDA` model in the `20Newgroup` dataset:
 
