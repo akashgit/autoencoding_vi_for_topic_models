@@ -10,13 +10,13 @@ __UPDATE__
 
 4. Added `topic_prop` method to both the models. Softmax the output of this method to get the topic proportions.
 
-## Code for the ICLR 2017 paper: Autoencoding Variational Inference for Topic Models
+---
+#### Code for the ICLR 2017 paper: Autoencoding Variational Inference for Topic Models
+---
 
 #### > [Arxiv](https://arxiv.org/abs/1703.01488)
 
 #### > [OpenReview](http://openreview.net/forum?id=BybtVK9lg)
-
-#### Quick Start:
 
 ---
 ###### This is a tensorflow implementation for both of the Autoencoded Topic Models mentioned in the paper.  
