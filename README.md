@@ -1,5 +1,15 @@
 # Autoencoding Variational Inference for Topic Models
 
+__UPDATE__
+
+4. As pointed out by [@govg](https://github.com/govg), this code depends on a slightly older version of TF. I will try to update it soon, in the meantime you can look up a quick fix [here](https://github.com/akashgit/autoencoding_vi_for_topic_models/issues/5) for working with newer version of TF or (3) and (2) below if you'd rather prefer Keras or PyTorch.
+
+3. [@nzw0301](https://github.com/nzw0301) has implemented a [Keras](https://github.com/nzw0301/keras-examples/blob/master/prodLDA.ipynb) version of prodLDA.
+
+2. [@hyqneuron](https://github.com/hyqneuron) recently implemented a [PyTorch](https://github.com/hyqneuron/pytorch-avitm) version of AVITM. So check out his repo.
+
+1. Added `topic_prop` method to both the models. Softmax the output of this method to get the topic proportions.
+
 ## Code for the ICLR 2017 paper: Autoencoding Variational Inference for Topic Models
 
 #### > [Arxiv](https://arxiv.org/abs/1703.01488)
@@ -8,7 +18,7 @@
 
 #### Quick Start:
 
-This is a tensorflow implementation for both of the Autoencoded Topic Models mentioned in the paper.  
+###### This is a tensorflow implementation for both of the Autoencoded Topic Models mentioned in the paper.  
 ---
 To run the `prodLDA` model in the `20Newgroup` dataset:
 
@@ -20,10 +30,4 @@ Similarly for `NVLDA`:
 
 Check `run.py` for other options.
 
-__UPDATE__
 
-1. [@nzw0301](https://github.com/nzw0301) has implemented a [Keras](https://github.com/nzw0301/keras-examples/blob/master/prodLDA.ipynb) version of prodLDA.
-
-2. [@hyqneuron](https://github.com/hyqneuron) recently implemented a [PyTorch](https://github.com/hyqneuron/pytorch-avitm) version of AVITM. So check out his repo.
-
-3. Added `topic_prop` method to both the models. Softmax the output of this method to get the topic proportions.
