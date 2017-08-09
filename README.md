@@ -22,6 +22,8 @@ Check `run.py` for other options.
 
 __UPDATE__
 
-[@hyqneuron](https://github.com/hyqneuron) recently implemented a [PyTorch](https://github.com/hyqneuron/pytorch-avitm) version of AVITM. So check out his repo.
+1. [@nzw0301](https://github.com/nzw0301) has implemented a [Keras](https://github.com/nzw0301/keras-examples/blob/master/prodLDA.ipynb) version of prodLDA.
 
-Added `topic_prop` method to both the models. Softmax the output of this method to get the topic proportions.
+2. [@hyqneuron](https://github.com/hyqneuron) recently implemented a [PyTorch](https://github.com/hyqneuron/pytorch-avitm) version of AVITM. So check out his repo.
+
+3. Added `topic_prop` method to both the models. Softmax the output of this method to get the topic proportions.
