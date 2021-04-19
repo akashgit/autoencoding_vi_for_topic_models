@@ -2,6 +2,8 @@
 
 __UPDATE__
 
+>> Pyro added a prodlDA tutorial: https://pyro.ai/examples/prodlda.html
+
 1. As pointed out by [@govg](https://github.com/govg), this code depends on a slightly older version of TF. I will try to update it soon, in the meantime you can look up a quick fix [here](https://github.com/akashgit/autoencoding_vi_for_topic_models/issues/5) for working with newer version of TF or (3) and (2) below if you'd rather prefer Keras or PyTorch.
 
 2. [@nzw0301](https://github.com/nzw0301) has implemented a [Keras](https://github.com/nzw0301/keras-examples/blob/master/prodLDA.ipynb) version of prodLDA.
